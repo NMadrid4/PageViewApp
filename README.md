@@ -19,8 +19,8 @@ func busquedaLineal<T: Equatable>(arreglo: [T], _ elemento: T) -> Int {
 print("El elemento ha sido encontrado en la posición: \(busquedaLineal(arreglo: arregloStr, "Bryan"))")
 ```
 **Complejidad**
->Peor de los casos O(n)
-> Mejor de los casos O(1) 
+>Peor de los casos O(n)  
+> Mejor de los casos O(1)   
 > Caso promedio O(n)
 
 # Búsqueda Binaria
@@ -79,8 +79,8 @@ var maximo = arreglo.count
 print(busquedaBinariaIterativa(arreglo: arregloStr, elemento: "Bryan")!)
 ```
 **Complejidad**
->Peor de los casos O(log n)
-> Mejor de los casos O(1) 
+>Peor de los casos O(log n)  
+>Mejor de los casos O(1)   
 > Caso promedio O(log n)
 
 

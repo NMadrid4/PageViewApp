@@ -26,7 +26,7 @@ print("El elemento ha sido encontrado en la posición: \(busquedaLineal(arreglo:
 # Búsqueda Binaria
 **Divide y conquistarás**  
 
-	La búsqueda binaria funciona en arreglos ordenados. La búsqueda binaria comienza por comparar el elemento 	  del medio del arreglo con el valor buscado. Si el valor buscado es igual al elemento del medio, su posición en el arreglo es retornada. Si el valor buscado es menor o mayor que el elemento del medio, la búsqueda continua en la primera o segunda mitad, respectivamente, dejando la otra mitad fuera de consideración.
+La búsqueda binaria funciona en arreglos ordenados. La búsqueda binaria comienza por comparar el elemento del medio del arreglo con el valor buscado. Si el valor buscado es igual al elemento del medio, su posición en el arreglo es retornada. Si el valor buscado es menor o mayor que el elemento del medio, la búsqueda continua en la primera o segunda mitad, respectivamente, dejando la otra mitad fuera de consideración.
 	
 Para una matriz de tamaño n, el rendimiento no es O (n) como en la búsqueda lineal, sino solo O (log n). Para poner eso en perspectiva, la búsqueda binaria en una matriz con 1,000,000 de elementos solo toma unos 20 pasos para encontrar lo que está buscando, porque log_2 (1,000,000) = 19.9.
 

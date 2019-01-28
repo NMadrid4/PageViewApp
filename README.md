@@ -7,7 +7,7 @@ Un **algoritmo de búsqueda es** aquel que está diseñado para localizar un ele
 Con la búsqueda lineal, iteramos sobre todos los objetos en nuestro arreglo  y comparamos cada uno con el objeto que estamos buscando. Si los dos objetos son iguales, detendremos y devolveremos el índice de la posición actual del arreglo. De lo contrario, continuamos buscando el siguiente objeto siempre que tengamos objetos en el arreglo.
 El mejor caso es cuándo el valor es igual al primer elemento de la lista, en este caso sólo se necesita una comparación.
 El peor caso es cuando el valor no es en la lista (u ocurre sólo una vez, al final de la lista), en este caso se necesitan n comparaciones y no obtendremos nada.
-```
+
 ```swift
 let arregloStr = ["Zacarias","Aldo", "Alberto", "Bryan", "Maria"]
 func busquedaLineal<T: Equatable>(arreglo: [T], _ elemento: T) -> Int {

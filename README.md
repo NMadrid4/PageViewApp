@@ -90,3 +90,4 @@ print(busquedaBinariaIterativa(arreglo: arregloStr, elemento: "Bryan")!)
 https://www.taringa.net/Pie_Grande47/busqueda-binaria-y-busqueda-secuencial-mas-claro-echale-agua_160t25
 https://github.com/raywenderlich/swift-algorithm-club/tree/master/Linear%20Search
 https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search
+https://en.wikipedia.org/wiki/Binary_search_algorithm
